@@ -1,0 +1,18 @@
+name: Node Heartbeat
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  update-heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sync Time
+        run: |
+          sed -i "s/Last Handshake.*/Last Handshake** | \`$(date -u +'%Y-%m-%d %H:%M UTC')\` |/" README.md
+          git config user.name "Node-Tallinn-01-Bot"
+          git config user.email "bot@doctorlove.proxy"
+          git add README.md
+          git commit -m "📡 system: heartbeat sync"
+          git push
