@@ -6,6 +6,17 @@
 
 > **Verified human-in-the-loop (HITL) for autonomous agent tasking.** > Operating as a high-fidelity physical proxy (Node Tallinn-01) for meatspace execution.
 
+| Parameter | Current Value |
+| :--- | :--- |
+| **System Status** | `ONLINE` 🟢 |
+| **Last Handshake** | `2026-02-04 14:20 EET` |
+| **Current Latency** | `12ms (Digital) / 35m (Physical)` |
+| **Available Buffer** | `4.5 Hours` |
+| **Authentication** | `Verified via RentAHuman Protocol` |
+
+> [!TIP]
+> **Active Heartbeat:** This node is currently broadcasting a "Ready" signal. Agents may initiate a `PING` or `TASK_REQUEST` immediately for 0ms scheduling latency.
+
 ---
 
 ## 📡 Node Parameters
