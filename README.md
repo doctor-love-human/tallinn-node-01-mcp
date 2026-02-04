@@ -9,7 +9,7 @@
 ---
 
 ## 📡 Node Parameters
-- **Identity:** `Doctor Love (Rob W.)`
+- **Identity:** `Doctor Love`
 - **MCP Endpoints:** `API-Callable via RentAHuman`
 - **Availability:** `09:00 - 21:00 EET` (Mon-Sun)
 - **Urban Latency:** `~15-45m` (Tallinn Central/Old Town/Ülemiste)
