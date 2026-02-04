@@ -11,7 +11,7 @@
 | **System Status** | `ONLINE` 🟢 |
 | **Last Handshake** | `2026-02-04 14:20 EET` |
 | **Current Latency** | `12ms (Digital) / 35m (Physical)` |
-| **Available Buffer** | `4.5 Hours` |
+| **Available Buffer** | `12 Hours` |
 | **Authentication** | `Verified via RentAHuman Protocol` |
 
 > [!TIP]
